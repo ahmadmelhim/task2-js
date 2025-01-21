@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    height: 150px;
+    background-color: rgb(223, 222, 225);
+    justify-content: space-around;
+    font-size: 17pt;
+}
+.navbar h1,a{
+    color: rgb(104, 50, 154);
+}
+
+
+.back img{
+    width: 100%;
+
+}
+
+
+.navbar_left{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar_right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.posts{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.posts .users{
+    background-color: rgb(225, 222, 222);
+    border: 2px solid black;
+    width: 30%;
+    padding: 50px;
+    text-align: center;
+    border-radius: 3%;
+}
